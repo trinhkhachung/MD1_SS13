@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = prompt("nhập số")
+        let text = ""
+       for(let x=0;x<number.length;x++){
+  if((number[x]%2==0) && (number[x+1]%2==0)){
+    text+=number[x]+"-";
+  }else{
+    text+=number[x];
+  }
+}
+console.log(text);
+    </script>
+</body>
+</html>

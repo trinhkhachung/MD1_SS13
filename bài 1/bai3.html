@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = "abcacbABABCD"
+        let text=""
+       for (let i = 0; i < str.length; i++) {
+        if (str[i]<"a") {
+            text+=str[i].toLowerCase();
+
+        }else 
+            text += str[i].toLocaleUpperCase()
+       }
+       console.log(text);
+
+    </script>
+</body>
+</html>
